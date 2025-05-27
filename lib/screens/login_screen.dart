@@ -15,10 +15,12 @@ class _LoginScreenState extends State<LoginScreen> {
       body:  SafeArea(child: 
       Column(
         children: [
-          Container(
-            height: 400,
-            width: 400,
-            child:   Lottie.asset('assets/animations/lottie1.json'),
+          Center(
+            child: Container(
+              height: 400,
+              width: 300,
+              child:   Lottie.asset('assets/animations/lottie1.json'),
+            ),
           )
         ],
       )),
